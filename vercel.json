@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    { "source": "/courage-economy", "destination": "https://thecourageeconomy.net/", "permanent": true },
+    { "source": "/courage-economy/", "destination": "https://thecourageeconomy.net/", "permanent": true },
+    { "source": "/courage-economy/:path*", "destination": "https://thecourageeconomy.net/:path*", "permanent": true },
+    { "source": "/the-courage-economy", "destination": "https://thecourageeconomy.net/", "permanent": true },
+    { "source": "/the-courage-economy/:path*", "destination": "https://thecourageeconomy.net/:path*", "permanent": true },
+    { "source": "/diagnostic", "destination": "https://diagnostic.thecourageeconomy.net/", "permanent": true },
+    { "source": "/diagnostic/", "destination": "https://diagnostic.thecourageeconomy.net/", "permanent": true },
+    { "source": "/diagnostic/:path*", "destination": "https://diagnostic.thecourageeconomy.net/:path*", "permanent": true },
+    { "source": "/lie-economy", "destination": "https://thecourageeconomy.net/lie-economy", "permanent": true },
+    { "source": "/lie-economy/", "destination": "https://thecourageeconomy.net/lie-economy", "permanent": true },
+    { "source": "/inventory", "destination": "https://diagnostic.thecourageeconomy.net/inventory.html", "permanent": true },
+    { "source": "/book", "destination": "https://thecourageeconomy.net/book", "permanent": true },
+    { "source": "/book/", "destination": "https://thecourageeconomy.net/book", "permanent": true },
+    { "source": "/contact/", "destination": "/contact", "permanent": true },
+    { "source": "/about/", "destination": "/#about", "permanent": false },
+    { "source": "/about", "destination": "/#about", "permanent": false }
+  ],
+  "trailingSlash": false
+}
