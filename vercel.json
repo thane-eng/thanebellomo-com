@@ -1,4 +1,6 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     { "source": "/courage-economy", "destination": "https://thecourageeconomy.net/", "permanent": true },
     { "source": "/courage-economy/", "destination": "https://thecourageeconomy.net/", "permanent": true },
@@ -13,9 +15,10 @@
     { "source": "/inventory", "destination": "https://diagnostic.thecourageeconomy.net/inventory.html", "permanent": true },
     { "source": "/book", "destination": "https://thecourageeconomy.net/book", "permanent": true },
     { "source": "/book/", "destination": "https://thecourageeconomy.net/book", "permanent": true },
-    { "source": "/contact/", "destination": "/contact", "permanent": true },
     { "source": "/about/", "destination": "/#about", "permanent": false },
     { "source": "/about", "destination": "/#about", "permanent": false }
   ],
-  "trailingSlash": false
+  "rewrites": [
+    { "source": "/contact", "destination": "/contact.html" }
+  ]
 }
